@@ -1,0 +1,1 @@
+Aqui se incorporarán los ejercicios del primer tema de la asignatura Arquitectura de Software del Bachelor TIE (SEAS)
