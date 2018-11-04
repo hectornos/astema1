@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Ejercicio 4</title>
+  </head>
+  <body>
+      <script>
+          var numero = prompt('Introduce numero para obtener tabla:');
+          document.write(
+            "<table border='1'><tr><td colspan='5'>Tabla del " + numero + "</td></tr>"
+          )
+          for (i=1;i<11;i++){
+            document.write("<tr><td>"+numero+"</td><td>*</td><td>"+i+"</td><td>=</td><td>"+(numero*i)+"</td></tr>")
+          }
+        </script>
+  </body>
+</html>
