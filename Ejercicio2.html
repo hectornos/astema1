@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Ejercicio 2</title>
+    <script>
+      var array = [true, 5, false, 'hola', 'adios', 2];
+      //Comparamos los textos, hola es mayor que adios porque compara letra por letra y ordena alfabeticamente, no compara longitud de textos.
+      alert(
+        "Es " +( array[3]>array[4]  )+" que el texto ('"+array[3]+"') sea mayor que el texto('"+array[4]+"'))\n"
+        + "Es " +( array[4]>array[3]  )+" que el texto ('"+array[4]+"') sea mayor que el texto('"+array[3]+"'))"
+      );
+      //Usamos los operadores logicos para ver si se cumplent condiciones con los booleanos.
+      alert(
+        "Se da que array[0] || array[2] da como resultado "+ (array[0] || array[2] )+"\nPorque al menos uno es true.\nPero array[0] && array[2] da como resultado "+ (array[0] && array[2] )+"\nPorque solamente uno es true."
+      );
+      //He realizado las operaciones en un mismo alert separando con \n para crear lineas. Las operaciones están entre parentesis para diferenciar del + concatenador.
+      alert(
+        'El resultado de las operaciones es:\n'+
+        'Suma: ' + array[1] + ' + ' + array[5] + ' = ' + (array[1]+array[5]) + '\n' +
+        'Resta: ' + array[1] + ' - ' + array[5] + ' = ' + (array[1]-array[5]) + '\n' +
+        'Producto: ' + array[1] + ' * ' + array[5] + ' = ' + (array[1]*array[5]) + '\n' +
+        'Division: ' + array[1] + ' / ' + array[5] + ' = ' + (array[1]/array[5]) + '\n' +
+        'Modulo: ' + array[1] + ' % ' + array[5] + ' = ' + (array[1]%array[5])
+      );
+      
+    </script>
+  </head>
+  <body>
+    <p>Solucion mediante alerts del ejercicio voluntario 2</p>
+  </body>
+</html>
