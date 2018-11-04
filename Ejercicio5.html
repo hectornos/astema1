@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+      <script>
+          var codFondo = prompt('Introduce color de fondo de la tabla:(R)osa (A)zul (Y)Amarillo (V)erde');
+          var codTexto = prompt('Introduce color del texto: (R)ojo (A)zul (Y)Amarillo (V)erde');
+          //Con arrays asociativos donde la key coincide con el codigo del color, evitamos tener que usar switch case.
+          var coloresFondo = {R:'hotpink',A:'lightblue',Y:'lightyellow',V:'lightgreen'};
+          var coloresTexto = {R:'red',A:'blue',Y:'yellow',V:'green'};
+          document.write(
+            "<table border='1' bgcolor='"+coloresFondo[codFondo]+"' style='color: "+coloresTexto[codTexto]+";' >"
+          )
+          document.write(
+            "<tr><td>Este es el contenido de esta sencilla tabla</td></tr></table>"
+          )
+        </script>
+  </body>
+</html>
